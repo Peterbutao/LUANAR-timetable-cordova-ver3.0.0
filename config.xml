@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="app.netlify.bssy" version="2.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>BAAE</name>
+    <description>
+        timetable application.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        peter butao
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="https://www.luanar.netlify.app/" />
+    <allow-intent href="https://www.butaopeter.netlify.app/*" />
+    <allow-intent href="tel://0880164455" />
+    <allow-intent href="mailto://peterethanbutao@gmail.com/" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <icon src="www/assets/drawable-mdpi/logo.png" density="mdpi"/>
+        <icon src="www/assets/drawable-hdpi/logo.png" density="hdpi"/>
+        <icon src="www/assets/drawable-xhdpi/logo.png" density="xhdpi"/>
+        <icon src="www/assets/drawable-xxhdpi/logo.png" density="xxhdpi"/>
+        <icon src="www/assets/drawable-xxxhdpi/logo.png" density="xxxhdpi"/>
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>

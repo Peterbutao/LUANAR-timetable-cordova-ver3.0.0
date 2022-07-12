@@ -1,0 +1,24 @@
+{
+  "name": "app.netlify.bssy",
+  "displayName": "BAAE",
+  "version": "2.0.0",
+  "description": "luanar application timetable for benv",
+  "main": "index.js",
+  "scripts": {
+    "build": "cordova build --release --device android"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "peter butao",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-android": "^9.1.0",
+    "cordova-plugin-whitelist": "^1.3.4"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {}
+    }
+  }
+}

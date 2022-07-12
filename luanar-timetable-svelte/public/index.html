@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width,initial-scale=1'>
+
+	<title>Svelte app</title>
+
+	<link rel='icon' type='image/png' href='/favicon.png'>
+	<link rel='stylesheet' href='./main.css'>
+	<link rel='stylesheet' href='./global.css'>
+	<link rel='stylesheet' href='/build/bundle.css'>
+
+	<script defer src='/build/bundle.js'></script>
+</head>
+
+<body>
+	<div class="preloader">
+		
+        <div class="box">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+            <div class="dot3"></div>
+            <div class="dot4"></div>
+        </div>
+        <div class="text">
+            <p>LUANAR BSSY TIMETABLE</p>
+        </div>
+        <div class="load-text">
+            <p>© BUTAO UX|UI DEV 2022</p>
+            <p style="color:black; font-weight: 400;">version : 1.0.0</p>
+        </div>
+    </div>
+	<script>
+			window.addEventListener('load', function(){
+				document.querySelector('.preloader').classList.add('removeprd');
+			});
+	</script>
+
+</body>
+</html>
